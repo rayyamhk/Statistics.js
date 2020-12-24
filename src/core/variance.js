@@ -1,5 +1,14 @@
 const { NOT_ENOUGH_DATA } = require('../Errors');
 
+/**
+ * Return the sample variance of data,
+ * an array of at least two numeric values.
+ * If the data is not numeric, undefined is returned.
+ * 
+ * @memberof Statistics
+ * @instance
+ * @returns {number|undefined} Sample variance
+ */
 function variance() {
   if (!this.isNumeric) {
     return undefined;

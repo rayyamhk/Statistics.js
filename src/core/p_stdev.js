@@ -1,5 +1,14 @@
 const { NOT_ENOUGH_DATA } = require('../Errors');
 
+/**
+ * Return the population standard deviation of data,
+ * an array of at least two numeric values.
+ * If the data is not numeric, undefined is returned.
+ * 
+ * @memberof Statistics
+ * @instance
+ * @returns {number|undefined} Population standard deviation
+ */
 function p_stdev() {
   if (!this.isNumeric) {
     return undefined;

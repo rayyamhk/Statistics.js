@@ -1,3 +1,14 @@
+/**
+ * Return the median of ordinal and numeric data.
+ * If data is nominal, undefined is returned.
+ * When the number of data points is even, if the data is numeric,
+ * the median is interpolated by taking the average of the two middle values.
+ * If the data is ordinal, the high median is returned.
+ * 
+ * @memberof Statistics
+ * @instance
+ * @returns {number|undefined} Median
+ */
 function median() {
   if (!this.isOrdinal) {
     return undefined;

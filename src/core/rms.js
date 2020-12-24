@@ -1,3 +1,11 @@
+/**
+ * Return the root mean square of numeric data.
+ * If the data is not numeric, undefined is returned.
+ * 
+ * @memberof Statistics
+ * @instance
+ * @returns {number|undefined} Root mean square
+ */
 function rms() {
   if (!this.isNumeric) {
     return undefined;

@@ -1,3 +1,11 @@
+/**
+ * Return the mean of data.
+ * If data is not numeric, undefined is returned.
+ * 
+ * @memberof Statistics
+ * @instance
+ * @returns {number|undefined} Mean
+ */
 function mean() {
   if (!this.isNumeric) {
     return undefined;

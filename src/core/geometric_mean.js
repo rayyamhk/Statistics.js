@@ -1,3 +1,12 @@
+/**
+ * Return the geometric mean of data.
+ * If the data is not numeric, undefined is returned.
+ * If the data contains negative values, undefined is returned.
+ * 
+ * @memberof Statistics
+ * @instance
+ * @returns {number|undefined} Harmonic mean
+ */
 function geometric_mean() {
   if (!this.isNumeric) {
     return undefined;

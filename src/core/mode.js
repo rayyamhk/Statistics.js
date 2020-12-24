@@ -1,3 +1,11 @@
+/**
+ * Return an array of most frequently occuring values.
+ * The data can be nominal, ordinal or numeric.
+ * 
+ * @memberof Statistics
+ * @instance
+ * @returns {array<number>} Mode of data
+ */
 function mode() {
   if (!this._mode) {
     const data = this.sorted_data;

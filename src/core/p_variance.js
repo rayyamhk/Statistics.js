@@ -1,5 +1,14 @@
 const { NOT_ENOUGH_DATA } = require('../Errors');
 
+/**
+ * Return the population variance of data,
+ * an array of at least two numeric values.
+ * If the data is not numeric, undefined is returned.
+ * 
+ * @memberof Statistics
+ * @instance
+ * @returns {number|undefined} Population variance
+ */
 function p_variance() {
   if (!this.isNumeric) {
     return undefined;
