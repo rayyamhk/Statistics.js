@@ -5,9 +5,23 @@
   "contributors": [
     "Ray Yam"
   ],
-  "description": "",
-  "keywords": [],
-  "homepage": "",
+  "description": "A simple and high-performance library for Statistics",
+  "keywords": [
+    "statistics",
+    "mean",
+    "mode",
+    "median",
+    "standard deviation",
+    "variance"
+  ],
+  "homepage": "https://github.com/rayyamhk/Statistics.js",
+  "bugs": {
+    "url": "https://github.com/rayyamhk/Statistics.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rayyamhk/Statistics.js"
+  },
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
